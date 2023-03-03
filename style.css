@@ -22,20 +22,24 @@ body{
     background-color:#a393b1;
 }
 main{
-    width: 50vw;
+    /* width: 50vw; */
     text-align: center;
     background-color:aquamarine ;
     border: 1px solid darkcyan;
     border-width: 0.8rem;
-    border-radius: 1rem;
-    padding: 1rem 5rem;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
     color: #1f2933;
-    margin: 30px auto;
+    margin: 10px auto;
 }
 
  h2{
     font-size: 2.2rem;
-    margin: 2rem;
+    color: rgb(217, 70, 21);
+ }
+ #developer{
+   font-size: 13px;
+   color: #455eb5;
  }
  h3{
     font-size: 3rem;
@@ -60,7 +64,7 @@ main{
 
  }
  button{
-    min-width: 28rem;
+    /* min-width: 28rem; */
     background-image: linear-gradient(92.88deg,#455eb5 9.16%,#5643cc 43.89%,#673fd7 64.72%);
     border-radius: 0.8rem;
     border-style: none;
@@ -83,8 +87,13 @@ main{
     transition-duration: 0.1s;
  }
  button:last-child{
-    background: darkblue;
+    background: red;
     margin-bottom: 0;
+ }
+ .eventSection p{
+   font-size: 18px;
+   color:rgb(81, 81, 73) ;
+   font-weight: bold;
  }
 
  /* our gameArea */
